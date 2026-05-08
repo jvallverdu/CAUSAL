@@ -1,0 +1,22 @@
+# Core
+numpy==1.26.4
+scipy==1.13.0
+pandas==2.2.2
+matplotlib==3.8.4
+tqdm==4.66.4
+
+# Stats / bootstrap
+scikit-learn==1.4.2
+statsmodels==0.14.2
+
+# Inference
+ollama==0.2.1
+requests==2.32.3
+
+# Tokenizer calibration (optional; only needed for `make calibration`)
+transformers==4.42.3
+sentencepiece==0.2.0
+tokenizers==0.19.1
+
+# Audit
+nltk==3.8.1
